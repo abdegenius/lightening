@@ -8,7 +8,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
       </head>
-      <body className="container mx-auto">
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

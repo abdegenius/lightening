@@ -6,11 +6,10 @@ import {
   optimism,
   polygon,
   sepolia,
-  baseSepolia
 } from "wagmi/chains";
 
 export const config = getDefaultConfig({
-  appName: "I DEY VEX",
+  appName: "RainbowKit demo",
   projectId: "YOUR_PROJECT_ID",
   chains: [
     mainnet,
@@ -18,8 +17,7 @@ export const config = getDefaultConfig({
     optimism,
     arbitrum,
     base,
-    sepolia,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [baseSepolia] : []),
+    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [sepolia] : []),
   ],
   ssr: true,
 });

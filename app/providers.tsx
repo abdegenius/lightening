@@ -34,7 +34,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
                   overlayBlur: "small",
                 })
               : lightTheme({
-                  accentColor: "#7b3fe4",
+                  accentColor: "#202020",
                   accentColorForeground: "white",
                   borderRadius: "medium",
                   fontStack: "system",
