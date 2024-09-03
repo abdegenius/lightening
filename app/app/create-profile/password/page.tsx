@@ -1,11 +1,11 @@
 "use client";
-import { AVATAR } from "@/app/helpers/avatar";
 import { Header } from "@/app/_components/Header";
-import { useAccount } from "wagmi";
-import Image from "next/image";
+import { useRouter } from "next/navigation";
 function Page() {
-  const { address } = useAccount();
-  let avatar = AVATAR(address);
+  const router = useRouter();
+  const handleClick = () => {
+    router.push("/");
+  };
   return (
     <>
       <div className="w-screen min-h-screen relative">
@@ -43,7 +43,8 @@ function Page() {
               </div>
 
               <button
-                type="submit"
+                type="button"
+                onClick={handleClick}
                 className="w-full bg-white text-gray-900 text-xl font-medium rounded-full py-4"
               >
                 Continue

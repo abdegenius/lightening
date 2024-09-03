@@ -1,11 +1,11 @@
 "use client";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation";
 import { useAccount } from "wagmi";
 export function AccessCard() {
-  const router = useRouter();
   const { isConnected } = useAccount();
-  const EXPLORE_DASHBOARD = () => {
+  const router = useRouter();
+  const handleClick = () => {
     router.push("/app/profile-type");
   };
   return (
@@ -16,7 +16,7 @@ export function AccessCard() {
             You are logged in on musique....
           </span>
           <button
-            onClick={EXPLORE_DASHBOARD}
+            onClick={handleClick}
             type="button"
             className="w-auto flex-none py-2 px-4 sm:py-3 sm:px-6 rounded-lg flex items-center space-x-2 justify-center mx-auto border-2 border-gray-600"
           >
