@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Header } from "./_components/Header";
 import { AccessCard } from "./_components/AccessCard";
 function Page() {
@@ -9,7 +9,13 @@ function Page() {
         <div className="relative w-full h-screen bg-gray-900 top-24">
           <div className="w-full h-full grid grid-cols-3 items-start">
             <div className="bg-transparent col-span-1 w-full h-full"></div>
-            <div className="bg-gray-950/25 col-span-1 w-full h-full"></div>
+            <div className="bg-gray-950/5 col-span-1 w-full h-full relative">
+              <img
+                src="./hero.png"
+                alt="hero"
+                className="z-[998] absolute bottom-0 w-full min-h-80 min-w-60 max-w-2xl h-auto"
+              />
+            </div>
             <div className="bg-transparent col-span-1 w-full h-full"></div>
           </div>
           <div className="absolute inset-0 flex flex-col space-y-4 items-start justify-start px-6 py-12 sm:px-16 md:px-24 md:py-16 lg:px-48 lg:py-24 xl:px-60">
