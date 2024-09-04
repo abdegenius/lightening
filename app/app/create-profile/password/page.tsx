@@ -4,16 +4,20 @@ import { useRouter } from "next/navigation";
 function Page() {
   const router = useRouter();
   const handleClick = () => {
-    router.push("/");
+    router.push("/app/dashboard");
   };
   return (
     <>
       <div className="w-screen min-h-screen relative">
         <Header />
         <div className="relative w-full h-screen bg-gray-900 py-48">
-          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch h-auto px-0 sm:px-2 md:px-16 lg:px-24 xl:px-40 mx-auto">
-            <div className="col-span-1 w-full hidden lg:block rounded-l-3xl bg-gray-300"></div>
-            <form className="col-span-1 w-full flex flex-col space-y-4 items-start justify-start p-8 lg:rounded-l-xl bg-transparent">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch xl:items-center h-auto px-0 sm:px-2 md:px-16 lg:px-24 xl:px-40 mx-auto">
+            <img
+              src="./../../../../../profile-bg.png"
+              alt="profile bg"
+              className="col-span-1 w-full hidden lg:block rounded-l-3xl bg-gray-300"
+            />
+            <form className="col-span-1 w-full flex flex-col space-y-4 items-start justify-start px-8 py-12 lg:rounded-l-xl bg-transparent">
               <h2 className="w-full text-xl sm:text-2xl lg:text-4xl font-normal text-center text-white">
                 CREATE YOUR PROFILE
               </h2>

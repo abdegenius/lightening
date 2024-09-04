@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Header } from "@/app/_components/Header";
 import { useRouter } from "next/navigation";
 function Page() {
@@ -19,14 +19,22 @@ function Page() {
               onClick={handleClick}
               className="p-4 rounded-xl bg-gray-900/90 border border-zinc-800 shadow-sm shadow-zinc-800 w-full max-w-[240px] drop-shadow-md flex flex-col space-y-4 items-center justify-center"
             >
-              <div className="bg-gray-200 h-48 w-full rounded-lg"></div>
+              <img
+                src="./../../../artist.png"
+                alt="artist"
+                className="bg-gray-200 h-48 w-full rounded-lg"
+              />
               <div className="text-xl font-medium text-white">An artist</div>
             </div>
             <div
               onClick={handleClick}
               className="p-4 rounded-xl bg-gray-900/90 border border-zinc-800 shadow-sm shadow-zinc-800 w-full max-w-[240px] drop-shadow-md flex flex-col space-y-4 items-center justify-center"
             >
-              <div className="bg-gray-200 h-48 w-full rounded-lg"></div>
+              <img
+                src="./../../../fan.png"
+                alt="fan"
+                className="bg-gray-200 h-48 w-full rounded-xl"
+              />
               <div className="text-xl font-medium text-white">A fan</div>
             </div>
           </div>
