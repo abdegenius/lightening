@@ -1,23 +1,14 @@
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
-import {
-  arbitrum,
-  base,
-  mainnet,
-  optimism,
-  polygon,
-  sepolia,
-} from "wagmi/chains";
+import { liskSepolia } from "wagmi/chains";
 
 export const config = getDefaultConfig({
-  appName: "RainbowKit demo",
-  projectId: "YOUR_PROJECT_ID",
-  chains: [
-    mainnet,
-    polygon,
-    optimism,
-    arbitrum,
-    base,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true" ? [sepolia] : []),
-  ],
-  ssr: true,
+    appName: "Soundshares",
+    projectId: "YOUR_PROJECT_ID",
+    chains: [
+        liskSepolia,
+        ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === "true"
+            ? [liskSepolia]
+            : []),
+    ],
+    ssr: true,
 });
