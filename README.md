@@ -1,6 +1,6 @@
 ## SOUNDSHARES
 
-**Soundshares** is a decentralized platform where music artists who need sponsorship to promote their career register to gain access to supporters and sponsors that are open to help foster their career growth in the music and entertainment industry at large. The sponsors also have benefits to enjoy when their favorite artists are exceling and making waves in their career.
+**Soundshares** is a decentralized platform where music artistes who need sponsorship to promote their career register to gain access to supporters and sponsors that are open to help foster their career growth in the music and entertainment industry at large. The sponsors also have benefits to enjoy when their favorite artists are exceling and making waves in their career.
 
 ### How the Platform Works:
 
