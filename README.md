@@ -67,8 +67,6 @@ Install dependencies and run the development build
  npm install
 
 npm run dev
-
-$ pnpm dev
 ```
 
 You should see something like this:
