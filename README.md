@@ -1,20 +1,19 @@
 ## SOUNDSHARES
-
-**Soundshares** is a decentralized platform where music artistes who need sponsorship to promote their career register to gain access to supporters and sponsors that are open to help foster their career growth in the music and entertainment industry at large. The sponsors also have benefits to enjoy when their favorite artists are exceling and making waves in their career.
+ **Soundshares** is a decentralized platform where music artistes who need sponsorship to promote their career register to gain access to supporters and sponsors that are open to help foster their career growth in the music and entertainment industry at large. The sponsors also have benefits to enjoy when their favorite artists are exceling and making waves in their career.
 
 ### How the Platform Works:
 
-**Artiste Onboarding:**
+- **Artiste Onboarding:**
 The up and coming artistes register on the platform and set up their profiles, where they share details about their music, journey, goals, and future projects. The platform tokenizes a portion of the musician's "platform" or "brand" into fungible tokens, representing ownership stakes. These could be tied to revenue from streams, merchandise, future albums, or exclusive content.
 
-**Sponsor Investment:**
+- **Sponsor Investment:**
 Sponsor can browse artistes profile, viewing their status, project roadmaps, and other relevant informations. If a Sponsor believes an artiste has potentials, they can go ahead and invest. The artiste on the other hand gives a fungible token to the sponsor representing a share of the artiste's earnings. These token provides the sponsor with perks such as exclusive content, early access to new releases, or a share of revenue.
 
-**Ownership and Perks:**
+- **Ownership and Perks:**
 Ownership of fungible token in form of shares from the artists exposes the sponsors to certain rights, such as voting on upcoming projects, receiving a portion of royalties, and getting exclusive merchandise.
 The shares can also appreciate in value if the artiste becomes more successful, allowing sponsors to sell them on secondary markets.
 
-**Decentralized Control:**
+- **Decentralized Control:**
 The platform is decentralized, ensuring transparency and secure transactions. The automatically distribute revenue shares and enforce the rights tied to each token. Artistes remain independent, and don't need to sign with traditional record labels, while still getting the financial support they need from their sponsors.
 
 
