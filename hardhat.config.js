@@ -11,4 +11,19 @@ module.exports = {
             accounts: [`0x${process.env.WALLET_KEY}`],
         },
     },
+    etherscan: {
+        apiKey: {
+            "lisk-sepolia": "empty",
+        },
+        customChains: [
+            {
+                network: "lisk-sepolia",
+                chainId: 4202,
+                urls: {
+                    apiURL: "https://sepolia-blockscout.lisk.com/api",
+                    browserURL: "https://sepolia-blockscout.lisk.com",
+                },
+            },
+        ],
+    },
 };
