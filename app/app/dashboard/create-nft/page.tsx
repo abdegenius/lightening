@@ -3,7 +3,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 import { create } from "ipfs-http-client";
-import fs from "fs";
 
 function Page() {
     const client = create({
@@ -31,16 +30,10 @@ function Page() {
         }
     }
 
-    // Function to upload JPG file to IPFS
-    async function uploadJpgToIPFS(filePath: any) {
+    async function uploadJpgToIPFS(file: File) {
         try {
-            // Read the file
-            const file = fs.readFileSync(filePath);
-
-            // Upload the file to IPFS
-            const result = await client.add(file);
-
-            // Return the IPFS hash (CID)
+            const buffer = await file.arrayBuffer();
+            const result = await client.add(buffer);
             return result.path;
         } catch (error) {
             console.error("Error uploading JPG to IPFS:", error);
